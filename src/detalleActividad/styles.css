@@ -1,0 +1,14 @@
+.actividad-crear {
+    display: flex;
+    flex-direction: column;
+    background-color:#6e9987;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    justify-content:center;
+    align-items:normal;
+    font-display: center;
+  }
+  
+  

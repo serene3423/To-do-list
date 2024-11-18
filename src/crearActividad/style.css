@@ -1,0 +1,44 @@
+body {
+  background-color: #f4f4f2; /* Fondo verde claro */
+  color: whitesmoke; /* Color de texto verde oscuro */
+  font-family:'Verdana';
+  font-size:large;
+  font-weight: bold;
+}
+
+.actividad-crear {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color:transparent; /* Fondo blanco para el formulario */
+  padding: 20px;
+  margin: 15px;
+  border-radius: 12px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.actividad-crear input,
+.actividad-crear button {
+  margin-bottom: 10px;
+  padding: 10px ;
+  border-radius: 6px;
+  flex-grow: 1;
+  width: 90%; /* Asegura el mismo ancho */
+}
+
+.actividad-crear button {
+  background-color:#27191c  ; /* Fondo verde bosque para el botón */
+  color: #e0e4ce; /* Texto blanco en el botón */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  width: 98%;
+  font-weight: bold;
+}
+
+
+.actividad-crear button:hover {
+  background-color: #114d4d; /* Verde más oscuro al pasar el ratón */
+}
+
